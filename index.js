@@ -509,7 +509,7 @@ bot.api.config.use(async (prev, method, payload, signal) => {
 // CONFIGURATION (EDIT ONLY THIS)
 // ===============================
 const BOT_TOKEN = process.env.BOT_TOKEN;
-const CHANNEL_ID = -1002344480123; // Osint Updates (CONFIRMED)
+const CHANNEL_ID = -1001693340041; // Osint Updates (CONFIRMED)
 const CHANNEL_URL = 'https://t.me/cnnetworkofficial';
 
 // ===============================
