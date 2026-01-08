@@ -986,7 +986,7 @@ async function getBasicNumberInfo(number) {
 
 async function getInstagramInfo(username) {
   try {
-    const response = await axios.get(`https://anmolinstainfo.worldgreeker.workers.dev/user?username=${encodeURIComponent(username)}`, { timeout: 20000 });
+    const response = await axios.get(`https://gaurav.xo.je/insta.php?username=${encodeURIComponent(username)}`, { timeout: 20000 });
     return { success: true, data: response.data };
   } catch (error) {
     return { success: false, error: 'Failed to fetch Instagram information' };
@@ -1007,7 +1007,7 @@ async function getInstagramPosts(username) {
 async function getPanInfo(pan) {
   try {
     const response = await axios.get(
-      `https://abbas-free.bitaimkingfree.workers.dev/?pan=${encodeURIComponent(pan)}`,
+      `https://pan.gauravyt566.workers.dev/?pan=${encodeURIComponent(pan)}`,
       { timeout: 20000 }
     );
     return { success: true, data: response.data };
