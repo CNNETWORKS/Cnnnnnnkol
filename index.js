@@ -2404,7 +2404,6 @@ ${user.isPremium ? "💎 Premium: ✅" : "💎 Premium: 🔒"}
 ✨ Try: /imggen <prompt> (AI Image)
 
 BOT BY @cnnetworkofficial
-
 OWNER @JIOXT
 
 Choose a category:`;
