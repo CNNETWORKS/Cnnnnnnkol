@@ -968,7 +968,7 @@ async function getIpInfo(ip) {
 
 async function getPhoneNumberInfo(number) {
   try {
-    const response = await axios.get(`https://aetherosint.site/api/api.php?key=IntelX&type=mobile&term=${number}`);
+    const response = await axios.get(`https://sandhu-psi.vercel.app/get_data?mobile=${number}key=data`);
     return { success: true, data: response.data };
   } catch (error) {
     return { success: false, error: 'Failed to fetch phone number information' };
